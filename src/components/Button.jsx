@@ -13,7 +13,7 @@ export default function Button({
 
   const variantClasses = {
     primary: 'bg-[#6C25FF] hover:bg-[#581cdb] text-white active:scale-[0.99]',
-    secondary: 'bg-[#DDD6FE] hover:bg-[#C7D2FE] text-[#1D2226] active:scale-[0.99]',
+    secondary: 'bg-[#6C25FF4B] text-[#1D2226] active:scale-[0.99]',
     disabled: 'bg-[#CBCBCB] text-white cursor-not-allowed',
   };
 

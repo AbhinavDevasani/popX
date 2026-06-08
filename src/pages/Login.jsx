@@ -11,11 +11,11 @@ export default function Login({ onLogin }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const newErrors = {};
     if (!email) {
       newErrors.email = 'Email is required';
-    } 
+    }
     if (!password) {
       newErrors.password = 'Password is required';
     }
@@ -30,11 +30,15 @@ export default function Login({ onLogin }) {
     <div className="flex flex-col min-h-screen bg-[#F7F8FA] px-5 py-8 justify-between animate-slide-in">
       <div className="max-w-sm w-full mx-auto space-y-8">
         <div className="space-y-2 text-left pt-4">
-          <h1 className="text-[28px] font-bold text-[#1D2229] leading-tight tracking-tight">
-            Signin to your<br />PopX account
+          <h1 className="text-left text-[28px] leading-[36px] font-medium text-[#1D2226]">
+            Signin to your
+            <br />
+            PopX account
           </h1>
-          <p className="text-[14px] text-[#667085] leading-relaxed font-medium">
-            Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit,
+          <p className="text-left text-[18px] leading-[26px] font-normal text-[#1D2226] opacity-60">
+            Lorem ipsum dolor sit amet,
+            <br />
+            consectetur adipiscing elit,
           </p>
         </div>
 

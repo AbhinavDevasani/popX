@@ -9,7 +9,7 @@ export default {
       colors: {
         popx: {
           primary: '#6C25FF',
-          secondary: '#E0DEFF', // Very light lavender/purple matching the button background in Welome page
+          secondary: '#6C25FF4B', // Very light lavender/purple matching the button background in Welome page
           secondaryText: '#1D2939', // Dark text color for the secondary button
           textDark: '#1D2229', // Deep dark color for headings
           textGray: '#667085', // Muted gray text
