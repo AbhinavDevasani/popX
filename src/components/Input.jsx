@@ -18,10 +18,10 @@ export default function Input({
       {label && (
         <label
           htmlFor={id}
-          className="absolute left-3 -top-2 px-1 bg-[#F7F8FA] text-[11px] font-semibold text-popx-primary z-10 flex items-center leading-none"
+          className="absolute left-3 -top-2 px-1 bg-[#F7F8FA] text-[13px] font-normal text-[#6C25FF] z-10 flex items-center leading-none"
         >
-          <span className="text-popx-primary opacity-90">{label}</span>
-          {required && <span className="text-red-500 ml-0.5 font-bold">*</span>}
+          <span>{label}</span>
+          {required && <span className="text-[#DD4A3D] ml-0.5 font-normal">*</span>}
         </label>
       )}
       <input
@@ -33,11 +33,11 @@ export default function Input({
         required={required}
         placeholder={placeholder}
         className={`w-full px-4 py-3 bg-[#F7F8FA] border ${
-          error ? 'border-red-500' : 'border-[#D8DADC] focus:border-popx-primary focus:ring-1 focus:ring-popx-primary'
-        } rounded-lg text-[13px] text-[#1D2229] font-medium placeholder-gray-400 focus:outline-none transition-all duration-200`}
+          error ? 'border-[#DD4A3D]' : 'border-[#D8DADC] focus:border-[#6C25FF] focus:ring-1 focus:ring-[#6C25FF]'
+        } rounded-lg text-[13px] text-[#1D2226] font-normal placeholder-gray-400 focus:outline-none transition-all duration-200`}
         {...props}
       />
-      {error && <span className="text-xs text-red-500 mt-1 block pl-1">{error}</span>}
+      {error && <span className="text-[13px] text-[#DD4A3D] mt-1 block pl-1">{error}</span>}
     </div>
   );
 }

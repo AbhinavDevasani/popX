@@ -9,11 +9,11 @@ export default function Button({
   className = '',
   ...props
 }) {
-  const baseClasses = 'w-full py-3.5 px-4 rounded-lg font-semibold text-sm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-popx-primary focus:ring-offset-2 text-center flex items-center justify-center';
+  const baseClasses = 'w-full py-3.5 px-4 rounded-lg font-medium text-[16px] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-popx-primary focus:ring-offset-2 text-center flex items-center justify-center';
 
   const variantClasses = {
-    primary: 'bg-popx-primary hover:bg-[#581cdb] text-white active:scale-[0.99]',
-    secondary: 'bg-[#DDD6FE] hover:bg-[#C7D2FE] text-popx-dark text-[#1F1A3A] active:scale-[0.99]',
+    primary: 'bg-[#6C25FF] hover:bg-[#581cdb] text-white active:scale-[0.99]',
+    secondary: 'bg-[#DDD6FE] hover:bg-[#C7D2FE] text-[#1D2226] active:scale-[0.99]',
     disabled: 'bg-[#CBCBCB] text-white cursor-not-allowed',
   };
 

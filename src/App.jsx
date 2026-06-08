@@ -36,7 +36,7 @@ function MainApp() {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto min-h-screen bg-white md:shadow-lg flex flex-col relative overflow-hidden">
+    <div className="w-[375px] h-[812px] bg-[#F7F8FA] shadow-2xl relative overflow-hidden flex flex-col">
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/login" element={<Login onLogin={handleLogin} />} />
@@ -58,7 +58,9 @@ function MainApp() {
 export default function App() {
   return (
     <Router>
-      <MainApp />
+      <div className="min-h-screen w-full bg-[#E5E7EB] flex items-center justify-center py-6">
+        <MainApp />
+      </div>
     </Router>
   );
 }

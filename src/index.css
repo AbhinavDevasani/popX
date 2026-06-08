@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #f7f8fa;
-  color: #1d2229;
+  background-color: #e5e7eb;
+  color: #1d2226;
 }
 
 ::-webkit-scrollbar {

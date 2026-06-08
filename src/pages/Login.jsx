@@ -20,11 +20,6 @@ export default function Login({ onLogin }) {
       newErrors.password = 'Password is required';
     }
 
-    if (Object.keys(newErrors).length > 0) {
-      setErrors(newErrors);
-      return;
-    }
-
     onLogin(email);
     navigate('/profile');
   };
